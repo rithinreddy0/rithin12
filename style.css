@@ -160,39 +160,81 @@ h1{
     }
 }
 @media screen and  (max-width:1000px) {
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .menu {
         display: flex;
         gap: 0px;
         font-size: 18px;
-        justify-content: space-around;
+        justify-content: flex-start;
         
         
     }
+    .logo a{
+        font-size: 20px;
+    }
     .nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
     }
     .menu  a{
         display: none;
 
     }
+    .hero{
+        margin-top: 20px;
+    }
     .hero h2{
-        font-size: 45px;
+        font-size: 25px;
     }
     .hero h3{
-        font-size: 30px;
+        font-size: 18px;
     }
-    .btn{
-        width: 2px;
+    .hero button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
 
     }
 
     .box{
         padding: auto;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .aboutme h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .aboutme br{
+        display: none;
+    }
+    .aboutme{
+        padding: 20px 30px;
+    }
+    .skills h1{
+        color: black;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .box{
+        flex-wrap: wrap;
+        font-size: 15px;
+        gap: 10px;
+        padding: 5px;
+        color: black;
+        background-color: #b3b1b7b1;
+    }
+    .projects{
+        margin-top: 5px;
+
+    }
+    .projects div p{
+        font-size: 15px;
+        text-align: center;
+        padding: 0 15px;
     }
 }
 
