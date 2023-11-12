@@ -148,18 +148,44 @@ h1{
 .projects h2{
     margin-top: 50px;
 }
+.mobnav{
+    display: none;
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(205, 205, 205);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10%;
+}
+.mobnav a{
+    color: black;
+    font-weight: bolder;
+    /* font-size: 10px; */
+}
 
 
 
 
 
 /* responsiveness */
-@media screen and(min-width:1000px) {
-    .menu svg{
+@media (min-width:1000px) {
+    svg {
         display: none;
     }
 }
 @media screen and  (max-width:1000px) {
+    .close{
+        display: none;
+    }
+    .menu div svg{
+        display: block;
+        /* background-color: rebeccapurpl; */
+    }
     .menu {
         display: flex;
         gap: 0px;
